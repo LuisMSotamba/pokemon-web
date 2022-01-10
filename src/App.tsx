@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './pokemon_logo.svg';
 import { Counter } from './features/counter/Counter';
 import './App.css';
 
@@ -8,12 +8,13 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <h1>Hola mundo</h1>
         <Counter />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
         <span>
-          <span>Learn </span>
+          <span>Learn  </span>
           <a
             className="App-link"
             href="https://reactjs.org/"
